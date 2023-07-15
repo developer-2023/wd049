@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *::selection {
+            background: orange;
+        }
+        article::first-letter {
+            font-weight: bold;
+        }
+        article::first-line {
+            text-decoration: underline;
+        }
+        article::before {
+            content: "@";
+            border: 2px dotted red;
+        }
+        article:last-child::after {
+            content: "HOT";
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod amet nulla eaque voluptatibus, minus, obcaecati iste vitae unde adipisci repudiandae quisquam quo hic ducimus distinctio laboriosam quia repellendus praesentium odit.</article>
+        <article>Commodi et sed obcaecati tempore error accusantium nobis corrupti quidem corporis, autem dignissimos unde repudiandae fuga doloremque porro earum similique amet doloribus nihil recusandae vel itaque necessitatibus. Est, qui error?</article>
+        <article>Maxime expedita nobis saepe porro. At nemo, dignissimos voluptatibus cum officia, maxime quibusdam numquam cupiditate nesciunt doloribus ab rerum! Rerum quasi dignissimos doloribus consequatur aliquam quidem quam eaque molestiae nobis.</article>
+        <article>Molestiae similique odit exercitationem dolor officia magnam rem aperiam, numquam sed delectus debitis eum nulla dignissimos libero voluptatum, quae repellat quod, atque aliquam fugiat aliquid eveniet adipisci tempore! Illo, maxime!</article>
+        <article>Eum quibusdam facilis sunt. Veritatis voluptatem aspernatur ex dolores soluta! Neque cum deserunt aspernatur ut quo, nihil culpa numquam obcaecati veritatis nostrum sequi id quidem autem vitae labore iste temporibus.</article>
+        <article>Officiis blanditiis repellat ab voluptates sint. Rerum perspiciatis vitae molestiae facilis consequuntur voluptatem impedit veritatis a! Est modi ipsam ea error blanditiis, quo nobis perferendis commodi aliquam a, omnis reiciendis!</article>
+    </div>
+</body>
+</html>
